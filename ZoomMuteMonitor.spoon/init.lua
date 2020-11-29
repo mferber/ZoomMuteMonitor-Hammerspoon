@@ -1,6 +1,9 @@
+-- TODO: move remaining TODOs elsewhere before first push to github
+
+-- TODO: make build to distributable zip and support direct download of the zip?
 -- ✓ extract display settings and use dofile(hs.spoons.resourcePath("displaySettings.lua"))
 
--- TODO: solve performance problems in Hammerspoon if possible
+-- TODO: solve performance problems in Hammerspoon if possible (solved by adding stop()?)
 -- TODO: eliminate transient "error" state while Zoom is quitting
 -- ✓ complete stop()
 -- ✓ review all var and fn names, some need updates - monitorWidget is poor
@@ -10,15 +13,14 @@
 -- TODO: metadata -- reconsider gmail address in metadata, maybe use alias or set up new account?
 -- TODO: metadata -- pick a .license
 -- TODO: come up with a better name?
--- TODO: move remaining TODOs elsewhere before first push to github
 -- TODO: push to github and add .homepage metadata
 
 -- TODO: sort out error/unknown colors
 -- TODO: diff colors for dark mode??
--- TODO: bug -- dot widget comes up with full opacity before first blink
+-- ✓ bug -- dot widget comes up with full opacity before first blink
 -- TODO: add shaded background (rounded?) square behind widget
--- TODO: add settings to deactivate either or both monitors
--- TODO: menubar: consider removing hardcoded "Zoom:" prefix?
+-- TODO: add settings to deactivate either or both monitors?
+-- ✓ menubar: consider removing hardcoded "Zoom:" prefix?
 
 --
 -- ZoomMuteMonitor.spoon

@@ -18,4 +18,3 @@ A [Hammerspoon](https://github.com/Hammerspoon/hammerspoon) spoon (plugin) that 
 ## Options
 
 Edit `~/.hammerspoon/Spoons/ZoomMuteMonitor.spoon/displaySettings.lua` as desired to change many details of the display, including fonts, colors, and timing.
- 

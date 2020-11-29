@@ -4,21 +4,18 @@ A [Hammerspoon](https://github.com/Hammerspoon/hammerspoon) spoon (plugin) that 
 
 ## Installation
 
-(TODO: add direct download path from GitHub)
-
 1. [Install and run Hammerspoon](https://www.hammerspoon.org/go/) if it isn't already installed.
-2. In the project root, double-click on the `./Hammerspoon.spoon` package to install it in Hammerspoon.
-3. In `~/.hammerspoon/init.lua`, add the following:
+2. [Download `Hammerspoon.spoon.zip`](https://github.com/mferber/ZoomMuteMonitor-Hammerspoon/raw/release/dist/ZoomMuteMonitor.spoon.zip) and double-click it to unzip it.
+3. Double-click on the unzipped `./Hammerspoon.spoon` to install it into Hammerspoon.
+4. In `~/.hammerspoon/init.lua`, add the following:
 
  ```
  zoomMuteMonitor = hs.loadSpoon('ZoomMuteMonitor')
  zoomMuteMonitor:start()
  ```
-
-4. Reload the Hammerspoon settings, using "Reload config" in the Hammerspoon menu bar or console window.
-5. Widgets should appear in the menu bar and the screen bottom left indicating the current mute status, or a "waiting" status if Zoom isn't running.
+5. Reload the Hammerspoon settings, using "Reload config" in the Hammerspoon menu bar or console window. The widgets should appear.
 
 ## Options
 
-Edit `displaySettings.lua` to change many details of the display, including fonts, colors, and timing.
+Edit `~/.hammerspoon/Spoons/ZoomMuteMonitor.spoon/displaySettings.lua` as desired to change many details of the display, including fonts, colors, and timing.
  

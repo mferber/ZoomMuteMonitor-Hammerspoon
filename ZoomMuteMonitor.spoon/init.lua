@@ -1,6 +1,6 @@
 -- TODO: move remaining TODOs elsewhere before first push to github
 
--- TODO: make build to distributable zip and support direct download of the zip?
+-- ✓ make build to distributable zip and support direct download of the zip?
 -- ✓ extract display settings and use dofile(hs.spoons.resourcePath("displaySettings.lua"))
 
 -- TODO: solve performance problems in Hammerspoon if possible (solved by adding stop()?)

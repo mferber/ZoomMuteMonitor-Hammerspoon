@@ -18,6 +18,7 @@ obj.__index = obj
 obj.name = "ZoomMuteMonitor"
 obj.version = "0.1"
 obj.author = "Matthias Ferber"
+obj.homepage = "https://github.com/mferber/ZoomMuteMonitor-Hammerspoon"
 obj.license = ""
 
 --
